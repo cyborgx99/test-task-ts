@@ -4,4 +4,5 @@ export const createImmutableObject = <T extends Record<PropertyKey, unknown>>(
   return Object.freeze(value);
 };
 
+// demo that it works globally
 console.log(getCurrentScript());
